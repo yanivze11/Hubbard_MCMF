@@ -1,0 +1,16 @@
+*.jld2
+*.csv
+*.dat
+*.pdf
+# the M.Sc. thesis (linked from README.md)
+!docs/thesis/*.pdf
+# tiny MC run used by tests/test_data_reduction_julia.sh (regenerate with --fresh)
+!tests/fixtures/**
+cluster_results/demo_sim_results/
+demo_results_small/
+demo_results/
+res/
+demos/output/
+local_smoke_runs/
+cluster_results/logs
+examples/output/

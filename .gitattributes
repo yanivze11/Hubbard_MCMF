@@ -1,0 +1,4 @@
+# shell scripts run on Linux (clusters, workstation): keep LF even on a Windows checkout
+*.sh text eol=lf
+# test fixtures (real MC output): byte for byte, never converted
+tests/fixtures/** binary
