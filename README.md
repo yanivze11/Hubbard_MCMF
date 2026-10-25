@@ -59,8 +59,8 @@ Integrating them out gives the classical action
 
 $$
 S[\Delta,\phi] = -2\sum_{n=1}^{N}\ln\cosh\frac{\beta E_n}{2}
-  + \beta\sum_i\left[\frac{|\Delta_i|^2}{\alpha U_i}
-  + \frac{\phi_i^2}{2\beta_\phi U_i} - \cos(\mathbf Q\cdot\mathbf r_i)\,\phi_i\right],
+    + \beta\sum_i\left[\frac{|\Delta_i|^2}{\alpha U_i}
+    + \frac{\phi_i^2}{2\beta_\phi U_i} - \cos(\mathbf Q\cdot\mathbf r_i)\,\phi_i\right],
 $$
 
 and the fields are sampled with weight e^{−S} by Metropolis Monte Carlo. One
